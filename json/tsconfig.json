@@ -1,0 +1,35 @@
+{
+  "1":{
+    "ddname":{
+      "p_name":"产品1",
+      "p_price":100,
+      "p_discount":0.9,
+      "p_detail":[1,2,3,4,6],
+      "p_main":"main.jpg",
+      "p_group":[1,2,3,4,5,6,7],
+      "p_category":"101101",
+      "p_brand":1,
+      "p_config":"这里是产品的配置内容......"
+    },
+  "p_name":"产品1",
+  "p_price":100,
+  "p_discount":0.9,
+  "p_detail":[1,2,3,4,6],
+  "p_main":"main.jpg",
+  "p_group":[1,2,3,4,5,6,7],
+  "p_category":"101101",
+  "p_brand":1,
+  "p_config":"这里是产品的配置内容......"
+},
+  "2":{
+    "p_name":"产品2",
+    "p_price":100,
+    "p_discount":0.9,
+    "p_detail":[1,2,3,4,6],
+    "p_main":"main.jpg",
+    "p_group":[1,2,3,4,5,6,7],
+    "p_category":"102101",
+    "p_brand":1,
+    "p_config":"这里是产品的配置内容......"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "big": {
+    "d1":"../images/ban-big1.jpg",
+    "d2":"../images/ban-big2.jpg",
+    "d3":"../images/ban-big3.jpg",
+    "d4":"../images/ban-big4.jpg",
+    "d5":"../images/ban-big5.jpg",
+    "d6":"../images/ban-big6.jpg",
+    "d7":"../images/ban-big7.jpg",
+    "d8":"../images/ban-big8.jpg"
+  },
+  "tab":{
+    "d1":"1",
+    "d2":"2",
+    "d3":"3",
+    "d4":"4",
+    "d5":"5",
+    "d6":"6",
+    "d7":"7",
+    "d8":"8"
+  },
+  "small": {
+    "1001":{
+      "d1":"../images/b-sm1-1.jpg",
+      "d2":"../images/b-sm1-2.jpg",
+      "d3":"../images/b-sm1-3.jpg",
+      "d4":"../images/b-sm1-4.jpg"
+    },
+    "1002":{
+      "d1":"../images/b-sm2-1.jpg",
+      "d2":"../images/b-sm2-2.jpg",
+      "d3":"../images/b-sm2-3.jpg",
+      "d4":"../images/b-sm2-4.jpg"
+    },
+    "1003":{
+      "d1":"../images/b-sm3-1.jpg",
+      "d2":"../images/b-sm3-2.jpg",
+      "d3":"../images/b-sm3-3.jpg",
+      "d4":"../images/b-sm3-4.jpg"
+    },
+    "1004":{
+      "d1":"../images/b-sm4-1.jpg",
+      "d2":"../images/b-sm4-2.jpg",
+      "d3":"../images/b-sm4-3.jpg",
+      "d4":"../images/b-sm4-4.jpg"
+    }
+  }
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../images/icon.ico">
+    <title>购物车-当当网</title>
+    <link rel="stylesheet" type="text/css" href="../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../css/navpublic.css">
+    <link rel="stylesheet" type="text/css" href="../css/shopping.css">
+    <script type="text/javascript" src="../javascript/cookie.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script type="text/javascript" src="../javascript/jquery.js"></script>
+    <script type="text/javascript" src="../javascript/shopping.js"></script>
+</head>
+<body>
+<!--top菜单-->
+<div class="top">
+    <div class="wrap">
+        <div class="top-left fl">
+            <a href="javascript:;" class="address-one">
+                送至：<span id="address">北京</span>
+            </a>
+            <ul id="top-left-address">
+
+            </ul>
+        </div>
+        <div class="top-right fr">
+            <ul>
+                <li><a href="javascript:;"><span class="car"></span>购物车<span class="num">0</span></a> </li>
+                <li><a href="javascript:;">我的订单</a> </li>
+                <li><a href="javascript:;">原创征文</a> </li>
+                <li class="top-right-list-li-phone"><a href="javascript:;" class="phone-1"><span class="phone"></span>手机当当</a>
+                    <div class="top-right-list-phone">
+                        <div class="phone-list">
+                            <div class="phone-list-left fl">
+                                <a href="javascript:;">
+                                    <span>当当客户端</span>
+                                    <img src="../images/img002.png">
+                                    <span class="text">
+                                                    下载购物APP
+                                                    <br>
+                                                    手机端1元秒
+                                                </span>
+                                </a>
+                            </div>
+                            <div class="phone-list-left fl">
+                                <a href="javascript:;">
+                                    <span>当当读书客户端</span>
+                                    <img src="../images/img003.png">
+                                    <span class="text">
+                                                    万本电子书
+                                                    <br>
+                                                    免费读
+                                                </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="top-right-list-li"><a href="javascript:;" class="my-dd">我的当当</a>
+                    <div class="top-right-list">
+                        <ul class="top-right-list-ul">
+                            <li><a href="javascript:;">积分抵现</a> </li>
+                            <li><a href="javascript:;">我的收藏</a> </li>
+                            <li><a href="javascript:;">我的余额</a> </li>
+                            <li><a href="javascript:;">我的评价</a> </li>
+                            <li><a href="javascript:;">礼券/礼品卡</a> </li>
+                            <li><a href="javascript:;">电子书架</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-right-list-li"><a href="javascript:;" class="my-dd">企业采购</a>
+                    <div class="top-right-list">
+                        <ul class="top-right-list-ul">
+                            <li><a href="javascript:;">大宗采购</a> </li>
+                            <li><a href="javascript:;">礼品卡采购</a> </li>
+                            <li><a href="javascript:;">礼品卡激活</a> </li>
+                            <li><a href="javascript:;">礼品卡使用</a> </li>
+                            <li><a href="javascript:;">3C数码团购</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-right-list-li"><a href="javascript:;" class="my-dd">客户服务</a>
+                    <div class="top-right-list">
+                        <ul class="top-right-list-ul">
+                            <li><a href="javascript:;">帮助中心</a> </li>
+                            <li><a href="javascript:;">自助退换货</a> </li>
+                            <li><a href="javascript:;">自助发票</a> </li>
+                            <li><a href="javascript:;">联系客服</a> </li>
+                            <li><a href="javascript:;">我要投诉</a> </li>
+                            <li><a href="javascript:;">意见建议</a> </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--<div class="dd-login fr">-->
+                        <!--<span id="nickname">-->
+                            <!--欢迎光临当当，请-->
+                            <!--<a href="javascript:;" class="login">登录</a>-->
+                            <!--<a href="javascript:;" >成为会员</a>-->
+                        <!--</span>-->
+        <!--</div>-->
+    </div>
+</div>
+
+
+    <div class="shoppingcart-wrapper">
+        <a href="javascript:;"><img src="../images/car01.jpg"></a>
+    </div>
+    <div class="login-line">
+        <div class="w960">
+            <div class="shopping-procedure">
+                <span class="current">我的购物车</span>
+                <span>填写订单</span>
+                <span>完成订单</span>
+            </div>
+            <div class="login">
+                <a href="javascript:;"><img src="../images/dd_logo.jpg"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="add-line">
+        <div class="w960"></div>
+    </div>
+    <div class="w960" id="cart">
+        <ul class="shopping-title">
+            <li class="f1"><input type="checkbox" class="quan qxuan" id="all" />全选</li>
+            <li class="f2">商品信息</li>
+            <li class="f3">单价（元）</li>
+            <li class="f4">数量</li>
+            <li class="f4">金额（元）</li>
+            <li class="f5">操作</li>
+        </ul>
+        <div class="fn-shops">
+            <div class="fn-shop">
+                <div class="shop-title">
+                    <!--<ul class="shangpu">-->
+                        <!--<li><input type="checkbox" class="shangxuan" /></li>-->
+                        <!--<li><span class="sho-icon store-o"></span></li>-->
+                        <!--<li><a href="javascript:;">爱伊鹿女装专营店</a> </li>-->
+                        <!--<li><a href="javscript:;"><img src="../images/icon_cse.gif"></a> </li>-->
+                    <!--</ul>-->
+                    <div class="shopping-list">
+                        <div class="">
+                            <div class="shang1">
+                                <!--<ul class="shangxin">-->
+                                    <!--<li class="shangxin1" ><input type="checkbox" class="shangxuan1 shangxuan" /></li>-->
+                                    <!--<li class="row_img"><a href="javascript:;"><img src=""></a> </li>-->
+                                    <!--<li class="row_name"><div class="name"></div></li>-->
+                                    <!--<li class="row3"><span>0</span></li>-->
+                                    <!--<li class="fn-count-tip row3 "><div class="div4"><span class="div5 fl"><button id="jian" class="jia">-</button><input type="text" class="ipt4" id="ipt" value="1" /><button id="jia" class="jia">+</button></span></div></li>-->
+                                    <!--<li class="row4"><span class="red">¥0.00</span></li>-->
+                                    <!--<li class="row5"><a href="javascript:;">删除</a> </li>-->
+                                <!--</ul>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w960">
+        <div class="heji">
+            <div class="shopping-total">
+                <div class="shopping-total-right">
+                    <a href="javascript:;" class="total_btn fn-checkout unable">结算</a>
+                    <div class="subtotal">
+                        <p>总计:<span class="zongjia">¥0.00</span></p>
+                    </div>
+                </div>
+                <div class="shopping_total_left">
+                    <input type="checkbox" class="quan qxuan1" id="all1" />全选
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../images/icon.ico">
+    <title>登录-当当网</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <script type="text/javascript" src="../javascript/Ajax.js"></script>
+    <script type="text/javascript" src="../javascript/jquery.js"></script>
+    <script type="text/javascript" src="../javascript/login.js"></script>
+</head>
+<body>
+    <!--头部-->
+    <div class="head">
+        <a href="javascript:;"><img src="../images/logo.png"></a>
+        <div class="improve">
+            <span class="icon"></span>
+            <a href="javascript:;" class="info">“登录页面“改进建议</a>
+        </div>
+    </div>
+    <div class="login-bg">
+        <div class="set-area">
+            <div class="clearfix">
+                <div class="new-tip">
+                    <div>
+                        请勿设置与邮箱及其他网站相同的登录及支付密码，<a href="javascript:;">谨防诈骗</a>! </div>
+                </div>
+                <div class="infro">
+                    <div class="username">
+                        <span></span>
+                        <input type="text" class="user">
+                        <!--<span class="placeholder">邮箱/昵称/手机号码</span>-->
+                    </div>
+                    <p class="tips">
+                        <!--<span>请输入邮箱/昵称/手机号码</span>-->
+                    </p>
+                    <div class="password">
+                        <span></span>
+                        <input class="pass" type="password">
+                        <!--<span class="placeholder">密码</span>-->
+                    </div>
+                    <p class="tips">
+                        <span class="login-password">请填写长度为6-20个字符的密码</span>
+                        <span class="big-tip">键盘大写锁定已打开，请注意大小写!</span>
+                    </p>
+                    <div class="rotate">
+                        <div class="Rotate-operate"><label class="Rotate-prompt">请点击下方图片，旋转至正确方向</label>
+                            <a class="Rotate-refresh" style="background-position: 0% -76px;">换一组</a></div>
+                    </div>
+                    <p class="auto_login">
+                        <a href="###" tabindex="8" target="_blank">忘记密码？</a>
+                        <input class="auto_box" id="autologin" name="autologin" type="checkbox" tabindex="7" checked="">
+                        <span style="display: none;">七天内自动登录</span>
+                        <span class="safe" style="display: inline-block;">请勿在公用电脑上勾选此选项</span>
+                        <input type="hidden" id="ispersist" name="ispersist" value="on">
+                    </p>
+                    <!--<p class="btn"><a id="submitLoginBtn" href="javascript:void(0);">登&nbsp;录</a></p>-->
+                    <button class="btn">登录</button>
+
+
+                    <p class="register">
+
+                        <a style="" id="J_loginToRegister" class="register_btn" href="zhuce.html" tabindex="9">立即注册</a>
+                        <span>使用合作网站登录</span>
+                    </p>
+                    <div class="partner" id="share_login">
+                        <dl>
+                            <dt><a class="qq" id="qqShare" href="javascript:void(0)" title="ＱＱ" tabindex="10">ＱＱ</a></dt>
+                            <dt><a class="wx" id="wxShare" href="javascript:void(0)" title="微信" tabindex="11">微信</a></dt>
+                            <dt><a class="wb" id="wbShare" href="javascript:void(0)" title="新浪微博" tabindex="12">新浪微博</a></dt>
+                            <dt><a class="alpay" id="alipayShare" href="https://login.dangdang.com/login_third_alipay/login_alipay.aspx?returnurl=&lt;?= $returnurl ?&gt;" title="支付宝" tabindex="13">支付宝</a></dt>
+                            <dd id="showShareMore"><a class="more" href="javascript:void(0)">更多<em></em></a>
+                                <ul id="shareMore" style="display:none">
+                                    <li class="arrow"></li>
+                                    <li><a id="doubanShare" href="javascript:void(0)">豆瓣</a></li>
+                                    <li><a id="baiduShare" href="javascript:void(0)">百度</a></li>
+                                    <li><a id="fetionShare" href="javascript:void(0)">飞信</a></li>
+                                    <li class="mr0"><a id="renrenShare" href="javascript:void(0)">人人网</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-nav-box">
+        <div class="footer-nav">
+            <a href="javascript:;">公司简介</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">Investor Relations</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">诚聘英才</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">网站联盟</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">当当招商</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">机构销售</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">手机当当</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">官方Blog</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">热词搜索</a>
+        </div>
+        <div class="footer-copyright">
+            <span>Copyright (C) 当当网 2004-2017, All Rights Reserved</span>
+        </div>
+        <div class="footer-copyright">
+                       <span>
+                           <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color: #8c8c8c">京ICP证041189号</a>
+                       </span>
+            <span class="sep">|</span>
+            <span>出版物经营许可证 新出发京批字第直0673号</span>
+            <span class="sep">|</span>
+            <span>食品流通许可证：SP1101011010021855(1-1)</span>
+            <br>
+            <span>互联网药品信息服务资格证编号：(京)-非经营性-2012-0016</span>
+            <span class="sep">|</span>
+            <span>京公网安备110101000001号</span>
+            <br>
+            <span>互联网违法和不良信息举报电话：4001066666-5 邮箱：<a href="mailto:service@cs.dangdang.com" style="color: #8c8c8c">service@cs.dangdang.com</a></span>
+        </div>
+        <div class="footer_icon "style="padding-left:20px; width:790px;">
+            <div class="validator"><a href="javascript:;"><img src="../images/validate.gif"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/knetSealLogo.png"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/foot-1.jpg"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/brand_128_47.png"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/hlwjbzx_182.png"></a></div>
+        </div>
+    </div>
+
+
+</body>
+</html>

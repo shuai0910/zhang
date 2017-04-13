@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../images/icon.ico">
+    <title>新用户注册 - 当当网</title>
+    <link rel="stylesheet" type="text/css" href="../css/zhuce.css">
+    <script type="text/javascript" src="../javascript/Ajax.js"></script>
+    <script type="text/javascript" src="../javascript/jquery.js"></script>
+    <script type="text/javascript" src="../javascript/zhuce.js"></script>
+
+</head>
+<body>
+    <div class="ddnewhead">
+        <div class="ddnewhead-con">
+            <div class="ddnewhead-oper">
+                <ul class="ddnewhead-nav">
+                    <li class="ddnewhead-cart"><a href="Javascript:;">购物车</a> </li>
+                    <li class="ddnewhead-separate"></li>
+                    <li><a href="javascript:;">我的订单</a> </li>
+                    <li class="ddnewhead-separate"></li>
+                    <li class="ddnewhead-mydd">
+                        <a href="javascript:;" class="menu-btn">我的当当</a>
+                        <div class="ddnewhead-mydd-panel">
+                            <ul class="ddnewhead-mydd-list">
+                                <li><a href="javascript:;">我的订单</a> </li>
+                                <li><a href="javascript:;">购物礼券</a> </li>
+                                <li><a href="javascript:;">我的积分</a> </li>
+                                <li><a href="javascript:;">我的收藏</a> </li>
+                                <li><a href="javascript:;">我的评论</a> </li>
+                                <li><a href="javascript:;">数字商品</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="ddnewhead-separate"></li>
+                    <li class="ddnewhead-gcard">
+                        <a href="javascript:;" class="menu-btn">礼品卡</a>
+                        <div class="ddnewhead-gcard-panel">
+                            <ul class="ddnewhead-gcard-list">
+                                <li><a href="javascript:;">购买</a> </li>
+                                <li><a href="javascript:;">激活</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="ddnewhead-separate"></li>
+                    <li><a href="javascript:;">手机当当</a> </li>
+                    <li class="ddnewhead-separate"></li>
+                    <li><a href="javascript:;">企业销售</a> </li>
+                    <li class="ddnewhead-separate"></li>
+                    <li><a href="javascript:;">帮助</a> </li>
+                </ul>
+                <p>欢迎光临当当网，请
+                    <a href="javascript:;" class="login-link">登录</a>
+                    <a href="javascript:;" class="login-link">免费注册</a>
+                </p>
+            </div>
+            <div class="ddnewhead-logo">
+                <a href="javascript:;"><img src="../images/logo.png"></a>
+            </div>
+        </div>
+        <div class="ddnewhead-bottom"></div>
+    </div>
+    <form method="post">
+        <div class="bd">
+            <div class="shadow-box">
+                <div class="register-box">
+                    <div class="head">
+                        <span class="dd-more">
+                            <a href="javascript:;" class="home">当当首页</a>
+                            <a href="javascript:;" >注册帮助</a>
+                        </span>
+                        <a href="javascript:;" class="head-a head-a1">新用户注册</a>
+                        <a href="javascript:;" class="head-a">企业用户注册</a>
+                    </div>
+                    <div class="help-icon">
+                        <a href="javascript:;"></a>
+                    </div>
+                    <div class="body">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td class="t">邮箱／手机号码</td>
+                                <td>
+                                    <input class="text" id="txt_username" autocomplete="off" autofocus="autofocus" type="text" placeholder="请输入您的邮箱或手机号码">
+                                    <span id="nameok"></span>
+                                    <span class="cue warn" id="J_tipUsername"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t">登录密码</td>
+                                <td>
+                                    <input type="password" class="text" id="txt_password">
+                                    <span id="pwdok"></span>
+                                    <span class="cue warn" id="J_tippwd"></span>
+                                    <span class="prompt">
+                                        <span class="icon"></span>
+                                        键盘大写锁定已打开，请注意大小写!
+                                    </span>
+                                    <span id="spnPwdStrongTips" style="display: none;">
+                                        <span id="spnPwdStrong1" class="cue warn j_pwdStrong" style="display: block;">
+                                            <span class="msg_level"><span class="s1"></span><span></span><span></span></span>密码过于简单
+                                        </span>
+                                        <span id="spnPwdStrong2" class="cue warn j_pwdStrong" style="display: none;">
+                                            <span class="msg_level"><span class="s1"></span><span class="s2"></span><span></span></span>试试字母、符号、数字的组合更安全
+                                        </span>
+                                        <span id="spnPwdStrong3" class="cue warn j_pwdStrong" style="display: none;">
+                                            <span class="msg_level"><span class="s1"></span><span class="s2"></span><span class="s3"></span></span>密码设置安全，放心使用
+                                        </span>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t">确认密码</td>
+                                <td><input type="password" class="text" id="txt_repassword">
+                                <span id="spn_repassword_ok"></span>
+                                <span class="cue warn" id="J_tipSurePassword"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="t">验证码</td>
+                                <td class="j-vcode">
+                                    <input class="text pin" type="text" id="txt_vcode" name="txt_vcode" autocomplete="off" placeholder="请输入验证码" maxlength="4" tabindex="5">
+                                    <a class="code_pic" id="vcodeImgWrap" name="change_code_img" href="javascript:void(0);">
+                                        <!--<img id="imgVcode" title="点击更换验证码" alt="点击更换验证码" width="84" height="37" src="p/tmp_proxy.php?t=1490578345557">-->
+
+                                    </a>
+                                    <a id="vcodeImgBtn" name="change_code_link" class="code_picww" href="javascript:void(0);">换张图</a>
+                                    <span id="spn_vcode_ok" class="pin_i icon_wrong" style="display: none;"></span>
+                                    <span id="J_tipVcode" class="cue warn"></span>
+                                    <!--<span class="icon_wrong pin_i"></span>-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t">&nbsp;</td>
+                                <td class="clause">
+										<span class="float_l">
+											<input id="chb_agreemen" name="chb_agreement" onmouseover="this.style.cursor='pointer';this.style.cursor='hand';" tabindex="7" type="checkbox" checked="checked">我已阅读并同意
+											<a target="_blank" href="http://help.dangdang.com/details/page12" tabindex="8">《当当交易条款》</a>和
+											<a target="_blank" href="http://help.dangdang.com/details/page42" tabindex="9">《当当社区条款》</a>
+										</span>
+                                    <span id="J_tipAgreement" class="cue"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t">&nbsp;</td>
+                                <td><a id="J_submitRegister" href="javascript:;" class="btn_login" tabindex="10" style="display: inline-block;">立即注册</a>
+                                    <a id="J_submitRegisterUnclick" style="display: none;" class="btn_login">注册中...</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="footer-nav-box">
+        <div class="footer-nav">
+            <a href="javascript:;">公司简介</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">Investor Relations</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">诚聘英才</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">网站联盟</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">当当招商</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">机构销售</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">手机当当</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">官方Blog</a>
+            <span class="sep">|</span>
+            <a href="javascript:;">热词搜索</a>
+        </div>
+        <div class="footer-copyright">
+            <span>Copyright (C) 当当网 2004-2017, All Rights Reserved</span>
+        </div>
+        <div class="footer-copyright">
+                       <span>
+                           <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow" style="color: #8c8c8c">京ICP证041189号</a>
+                       </span>
+            <span class="sep">|</span>
+            <span>出版物经营许可证 新出发京批字第直0673号</span>
+            <span class="sep">|</span>
+            <span>食品流通许可证：SP1101011010021855(1-1)</span>
+            <br>
+            <span>互联网药品信息服务资格证编号：(京)-非经营性-2012-0016</span>
+            <span class="sep">|</span>
+            <span>京公网安备110101000001号</span>
+            <br>
+            <span>互联网违法和不良信息举报电话：4001066666-5 邮箱：<a href="mailto:service@cs.dangdang.com" style="color: #8c8c8c">service@cs.dangdang.com</a></span>
+        </div>
+        <div class="footer_icon "style="padding-left:20px; width:790px;">
+            <div class="validator"><a href="javascript:;"><img src="../images/validate.gif"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/knetSealLogo.png"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/foot-1.jpg"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/brand_128_47.png"></a></div>
+            <div class="validator"><a href="javascript:;"><img src="../images/hlwjbzx_182.png"></a></div>
+        </div>
+    </div>
+</body>
+</html>

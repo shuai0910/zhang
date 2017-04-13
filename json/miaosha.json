@@ -1,0 +1,91 @@
+{
+  "miaosha":{
+    "d1":{
+      "d-img":"../images/img01.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d2":{
+      "d-img":"../images/img02.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d3":{
+      "d-img":"../images/img03.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d4":{
+      "d-img":"../images/img04.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d5":{
+      "d-img":"../images/img05.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d6":{
+      "d-img":"../images/img06.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d7":{
+      "d-img":"../images/img07.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d8":{
+      "d-img":"../images/img08.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d9":{
+      "d-img":"../images/img09.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    },
+    "d10":{
+      "d-img":"../images/img10.jpg",
+      "d-title":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿",
+      "d-name":"[当当自营]帮宝适 超薄干爽纸尿裤 大包装初生型NB96片（适合0-5kg）大包装 尿不湿"
+    }
+  },
+  "firm-week":["../images/img11.jpg","../images/img12.jpg","../images/img13.jpg","../images/img14.jpg"],
+  "w-con-left":["../images/imgw02.jpg"],
+  "w-con-logo":["../images/imgw08.jpg","../images/imgw14.jpg","../images/imgw15.jpg","../images/imgw16.jpg"],
+  "w-con-r-top":["../images/imgw03.jpg","../images/imgw04.jpg","../images/imgw05.jpg","../images/imgw07.jpg","../images/imgw04.jpg"],
+  "w-con-r-foot":["../images/imgw09.jpg","../images/imgw10.jpg","../images/imgw12.jpg","../images/imgw13.jpg","../images/imgw10.jpg"],
+  "dd-brand-head-title":["当当优选"],
+  "list-aa":["当当优品","贝康馨","苿莱","御姬秀","宝妈日记","善笙","当当阅读器"],
+  "hot":["家居家纺","童装","时尚女装","美妆","护肤","食品保健",""],
+  "dd-brand-con-l":["../images/dd-01.jpg","../images/dd-02.jpg","../images/dd-03.jpg","../images/dd-04.jpg"],
+  "dd-brand-con-r":["../images/dd-05.jpg","../images/dd-06.jpg","../images/dd-07.jpg","../images/dd-08.png"],
+  "dd-brand-con-z":["../images/dd-09.jpg"],
+  "book-top":["最新上架","独家畅品","重点推荐","电子书"],
+  "book-con-ul":["中小学教辅","外语","考试","小说","文学","青春文学","成功/励志","管理","历史","哲学/宗教","亲子/家教","全部分类>>"],
+  "book-right":{
+    "d1":["../images/b-02.jpg","哑舍大画集2","¥49.70","¥68.80"],
+    "d2":["../images/b-03.jpg","让大象飞","¥51.80","¥69.00"]
+  },
+  "book-con-foot":{
+    "d1":["../images/b-04.jpg","哑舍大画集2","¥49.70","¥68.80"],
+    "d2":["../images/b-05.jpg","老梁2017新年大礼包：老梁说天下(1-5卷)+特别会说话","¥99.00","¥223.80"],
+    "d3":["../images/b-06.jpg","《黑镜头》20周年纪念版：人类这100年（里程碑式摄影巨作，记录影响人类命运的百件大事。马格南图片社70年影像精华，普利策新闻奖、世界新闻摄影大赛奖获奖作品。）","¥99.80","¥138.00"],
+    "d4":["../images/b-07.jpg","天一金融证券从业资格教材 2017官方教材考试用书全套真题库试卷证券市场基本法律法规金融市场基础知识","¥59.80","¥156.00"]
+  },
+  "over":["../images/b-08.jpg","../images/b-09.jpg","../images/b-10.jpg","../images/b-11.jpg"],
+  "over2":["../images/b-012.jpg","../images/b-013.jpg","../images/b-014.jpg","../images/b-015.jpg"],
+  "over3":["../images/b-017.jpg","../images/b-018.jpg","../images/b-019.jpg","../images/b-20.jpg"],
+  "over4":["../images/b-016.jpg","../images/b-21.jpg","../images/b-22.jpg"]
+
+
+
+
+
+
+
+
+
+
+}

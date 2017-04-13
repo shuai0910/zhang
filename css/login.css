@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+/*头部*/
+.head{
+    margin: 12px auto 14px;
+    width: 1200px;
+    height: 60px;
+}
+.head img{
+    float: left;
+    margin: 7px 0 0 0;
+}
+.improve{
+    float: right;
+    margin-top: 34px;
+}
+.icon{
+    display: inline-block;
+    width: 15px;
+    height: 19px;
+    background: url("../images/improve.png")no-repeat 0 0;
+    vertical-align: middle;
+}
+.info{
+    color: #787878;
+    text-decoration: none;
+}
+.info:hover{
+    text-decoration: underline;
+}
+.login-bg{
+    background: url("../images/loginbg.jpg")no-repeat center center;
+    height: 590px;
+}
+.set-area{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.clearfix{
+    background: #fff;
+    padding: 15px 25px 15px 15px;
+    float: right;
+    width: 320px;
+    color: #6e6e6e;
+    margin: 90px auto 0;
+    position: relative;
+    border: 1px solid #eef2f4;
+    box-shadow: 0 1px 2px #eee;
+}
+.new-tip{
+    display: block;
+    width: 338px;
+    height: 24px;
+    right: -1px;
+    top: -27px;
+    line-height: 24px;
+    color: #828282;
+    padding-left: 22px;
+    background: url("../images/new_tip.png")no-repeat 3px 5px #fef7f5;
+    border: 1px solid #fedbd1;
+    position: absolute;
+}
+.new-tip a{
+    color: #1a66b3;
+    text-decoration: none;
+}
+.new-tip a:hover{
+    text-decoration: underline;
+}
+.infro{
+    width: 311px;
+    float: right;
+}
+.username{
+    margin-top: 32px;
+    position: relative;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+.infro .username span,.infro .password span{
+    width: 30px;
+    margin-right: 10px;
+    height: 36px;
+    float: left;
+    background: url("../images/icon_login.png")no-repeat 10px -110px;
+}
+.infro .username input,.infro .password input{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    border: 0;
+    color: #333;
+    font-family: "Microsoft Yahei";
+    padding: 0;
+    width: 270px;
+}
+input{
+    outline: none;
+}
+.infro .username .placeholder{
+    background: none;
+    position: absolute;
+    color: rgb(176,176,176);
+    width: 270px;
+    height: 34px;
+    font-size: 13.3333px;
+    padding-left: 0;
+    font-family: "Microsoft Yahei";
+    line-height: 34px;
+    top: 0;
+    left: 40px;
+    z-index: 20;
+    display: block;
+}
+.tips{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.tips span{
+    display: none;
+}
+.password{
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+.infro .password span{
+    background-position: 10px -150px;
+}
+.infro .password .placeholder{
+    background: none;
+    position: absolute;
+    color: rgb(176,176,176);
+    width: 270px;
+    height: 34px;
+    font-size: 13.3333px;
+    padding-left: 0;
+    font-family: "Microsoft Yahei";
+    line-height: 34px;
+    z-index: 20;
+    top: 116px;
+    left: 65px;
+    display: block;
+}
+.login-password{
+    display: none;
+}
+.big-tip{
+    display: none;
+    background: url("../images/big_tip_bg.png")0 0 no-repeat;
+    margin-left: -10px;
+    color: #ff8400;
+    padding-left: -32px;
+}
+.rotate{
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 0;
+    width: 312px;
+}
+.Rotate-refresh{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.rotate a{
+    color: #1a66b3;
+    text-decoration: none;
+}
+.auto_login a{
+    float: right;
+}
+.btn a{
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    height: 44px;
+    text-align: center;
+    font: normal 20px/44px "Microsoft Yahei";
+    background: #ff2832;
+}
+.register_btn{
+    float: right;
+    color: #6e6e6e;
+}
+.partner dt {
+    float: left;
+    margin-right: 5px;
+}
+.partner dt a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url(../images/icon_login.png) 0 -260px no-repeat;
+    text-indent: 99em;
+    overflow: hidden;
+}
+.partner dt a.wx {
+    background-position: 0 -280px;
+}
+.partner dt a.wb {
+    background-position: 0 -300px;
+}
+.partner dt a.alpay {
+    background-position: 0 -320px;
+}
+.partner dd {
+    padding-left: 10px;
+    position: relative;
+    float: left;
+    line-height: 20px;
+}
+.partner dd ul {
+    position: absolute;
+    width: 190px;
+    padding: 5px 0 1px 10px;
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    left: 10px;
+    top: 24px;
+    display: none;
+}
+.partner dd ul li.arrow {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: -5px;
+    left: 7px;
+    background: url(../images/more_arr.png) 0 0 no-repeat;
+}
+.partner dd ul li {
+    float: left;
+    margin-right: 22px;
+    height: 18px;
+    line-height: 18px;
+}
+li{
+    list-style: none;
+}
+.partner dd li a {
+    color: #6e6e6e;
+}
+.auto_login input {
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+
+.footer-nav-box{
+    color: #8c8c8c;
+    font-size: 12px;
+    text-decoration: none;
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    min-width: 960px;
+    padding: 25px 0 50px;
+}
+.footer-nav{
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 17px;
+}
+.footer-nav a{
+    color: #8c8c8c;
+}
+.footer-nav a:hover{
+    color: #f48570;
+    text-decoration: underline;
+}
+.footer-nav span.sep{
+    margin: 0 17px 0 19px;
+}
+.footer-copyright{
+    line-height: 20px;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    color: #8c8c8c;
+    font-size: 12px;
+}
+.footer_icon{
+    padding: 10px 0 0 340px;
+    margin:  0 auto;
+    height: 77px;
+}
+.validator{
+    float: left;
+    display: inline;
+    padding: 15px 5px 15px;
+    width: 135px;
+    height: 47px;
+}
